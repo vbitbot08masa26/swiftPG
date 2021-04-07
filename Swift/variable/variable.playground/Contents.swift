@@ -15,3 +15,6 @@ let value6: String = "def"
 
 value5 = "ghi"
 value6 = "jk" // error
+
+let value7 = "def"
+var value8 = "abc\(value7)" //  = value8 + value7
