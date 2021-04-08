@@ -1,6 +1,5 @@
 var i = 1
 var s1: String = String()
-var s2: String = String()
 
 switch i {
 case 1, 2:
@@ -12,6 +11,8 @@ default:
 }
 
 s1  //  A
+//---------------------------------------------------
+var s2: String = String()
 
 switch i {
 case 1, 2:
@@ -24,3 +25,20 @@ default:
 }
 
 s2  //  B
+
+//---------------------------------------------------
+
+var value1 = ("aa", 20)
+var value2: Int = Int()
+var s3: String = String()
+
+switch value1 {
+case (_, value2) where value2 > 30:
+    s3 = ">30"
+case (_, value2) where value2 == 30:
+    s3 = ">30"
+default:
+    s3 = "default"
+}
+
+s3 //   default
