@@ -21,7 +21,7 @@ else{
 msg //  "i is 1"
 ```
 
-Code2
+### Code2
 
 - if文の()は必要ありません。
 
