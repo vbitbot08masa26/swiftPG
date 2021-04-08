@@ -8,7 +8,7 @@
 - 変数名［位置］で参照する。
 
 ```swift
-var value1 = ["aa", "bb", "cc"]
+var value1 = [ "aa", "bb", "cc"]
 
 value1[0]   //  aa
 ```
