@@ -15,6 +15,8 @@ value1[0]   //  aa
 
 ### Code2
 
+- 配列も型を指定することができる。
+
 ```swift
-let value2:[Int] = [ "aa", "bb", "cc"]
+let value2:[Int] = [ 1, 2, 3]
 ```
