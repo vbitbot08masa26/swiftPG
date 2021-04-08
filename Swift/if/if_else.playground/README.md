@@ -26,12 +26,15 @@ Code2
 - if文の()は必要ありません。
 
 ```swift
+var i: Int = 1;
+var msg: String
+
 if i == 1{
-    msg2 = "i is 1"
+    msg = "i is 1"
 }
 else{
-    msg2 = "i is not 1"
+    msg = "i is not 1"
 }
 
-msg2    //  "i is 1"
+msg    //  "i is 1"
 ```
