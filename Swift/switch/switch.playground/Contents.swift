@@ -29,13 +29,12 @@ s2  //  B
 //---------------------------------------------------
 
 var value1 = ("aa", 20)
-var value2: Int = Int()
 var s3: String = String()
 
 switch value1 {
-case (_, value2) where value2 > 30:
+case let (_, value2) where value2 > 30:
     s3 = ">30"
-case (_, value2) where value2 == 30:
+case let (_, value2) where value2 == 30:
     s3 = ">30"
 default:
     s3 = "default"
